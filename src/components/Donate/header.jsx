@@ -15,7 +15,7 @@ export const Header = (props) => {
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  Learn More
+                  Scroll to Learn More
                 </a>{' '}
               </div>
             </div>

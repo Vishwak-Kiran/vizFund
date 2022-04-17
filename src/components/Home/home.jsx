@@ -5,7 +5,9 @@ import { Contact } from "./contact";
 import { Header } from "./header";
 import { Team } from "./Team";
 import JsonData from "../data/data.json";
-import Donate from "./donate";
+import { Features } from "./features";
+import { Testimonials } from "./testimonials";
+import { Gallery } from "./gallery";
 
 export default function Home() {
   const [landingPageData, setLandingPageData] = useState({});
@@ -15,10 +17,13 @@ export default function Home() {
   return (
     <div>
       <Header data={landingPageData.Header} />
-      <Donate />
+      <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
+      <Gallery data={landingPageData.Gallery} />
+      <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
-      <Contact />
+      <Contact data={landingPageData.Contact} />
+      
     </div>
   );
 }
