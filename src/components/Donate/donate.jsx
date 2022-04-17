@@ -45,7 +45,7 @@ export default function Donate(props) {
     <div id="features" class="containmain">
       <div class="contain">
         <form className="formmain" onSubmit={handleSubmit}>
-          <h1 className="sendpay">SEND ETH PAYMENT</h1>
+          <h1 className="sendpay">SEND ETH DONATION</h1>
           <div className="">
             <div className="form-group">
               <input

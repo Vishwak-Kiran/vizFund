@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import { About } from "./about";
 import { Contact } from "./contact";
 import { Header } from "./header";
-import { Team } from "./Team";
 import JsonData from "../data/data.json";
 import Donate from "./donate";
+import { Features } from "./features";
 
 export default function Home() {
   const [landingPageData, setLandingPageData] = useState({});
@@ -15,9 +15,8 @@ export default function Home() {
   return (
     <div>
       <Header data={landingPageData.Header} />
+      <Features data={landingPageData.Features}/>
       <Donate />
-      <About data={landingPageData.About} />
-      <Team data={landingPageData.Team} />
       <Contact />
     </div>
   );

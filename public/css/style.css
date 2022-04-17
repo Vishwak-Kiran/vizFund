@@ -17,16 +17,16 @@ h2 {
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 55px;
   color: #333;
 }
 h3 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: #333;
 }
 h4 {
-  font-size: 18px;
+  font-size: 36px;
   color: #333;
   font-weight: 600;
 }
@@ -36,7 +36,7 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -165,6 +165,13 @@ form {
     padding: 2.5rem;
   }
 }
+.a-tag{
+  padding-top: 20;
+  padding-bottom: 20;
+  max-width: 150;
+  display: grid;
+  margin: auto;
+}
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
@@ -274,12 +281,19 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+.features-text{
+  padding-top:50px;
+  padding-bottom:20px;
+}
+.features-content{
+  padding-bottom: 50px;
+}
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg1.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -318,13 +332,58 @@ form {
 }
 .intro p {
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+/* Landing Page Image*/
+.intro1 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/intro-bg2.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+p.intro1 {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+.intro1 .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro1 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro1 h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro1 p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+header .intro1-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
@@ -350,7 +409,7 @@ header .intro-text {
   padding: 100px 0;
 }
 #about h3 {
-  font-size: 22px;
+  font-size: 30px;
   margin: 0 0 20px;
 }
 #about h2 {
@@ -377,7 +436,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 21px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -593,7 +652,7 @@ header .intro-text {
   background: #fff;
 }
 label {
-  font-size: 12px;
+  font-size: 30px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   float: left;

@@ -3,11 +3,9 @@ import { useEffect, useState } from "react";
 import { About } from "./about";
 import { Contact } from "./contact";
 import { Header } from "./header";
-import { Team } from "./Team";
 import JsonData from "../data/data.json";
 import { Features } from "./features";
-import { Testimonials } from "./testimonials";
-import { Gallery } from "./gallery";
+import { Info } from "./info";
 
 export default function Home() {
   const [landingPageData, setLandingPageData] = useState({});
@@ -19,9 +17,7 @@ export default function Home() {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <Info />
       <Contact data={landingPageData.Contact} />
       
     </div>
