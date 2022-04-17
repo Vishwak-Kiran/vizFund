@@ -7,9 +7,13 @@ import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
-import JsonData from "./data/data.json";
+import JsonData from "./components/data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import DonateMain from "./components/Donate/donatemain";  
+import Home from "./components/Home/home"
+import { Contact } from "./components/contact";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,14 +28,13 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={Home()}></Route>
+          <Route path="/donate" element={<DonateMain />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
