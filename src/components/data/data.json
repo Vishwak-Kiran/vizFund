@@ -20,6 +20,38 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
+  },
+  "Team": [
+    {
+      "img": "https://www.chennaifoodbank.com/wp-content/uploads/2021/07/CFB-LOGO-white.png",
+      "name": "Chennai Food Bank"
+      
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLdOarcjrP5OmKHZSJVNQWQNWXmeFUwzpeDOGvr8IIaAjTCVlYxWSjSwe8bcCD6OuOpQ&usqp=CAU",
+      "name": "Bangalore Food Bank"
+      
+    }, {
+      "img": "https://media.istockphoto.com/vectors/food-donation-and-charity-vector-id1224414210?k=20&m=1224414210&s=612x612&w=0&h=FhZYeea62Eh_7OM74djnSdkRBSq0kpeloV3SnyTiSpE=",
+      "name": "Madurai Food Bank"
+      
+    }
+    ,
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Zp_USEVd06ZCqCXtXPG73_swLDGZMEN4X0rPunIGyAJEi5ISXnWa37PRjbn9dUdxmfI&usqp=CAU",
+      "name": "Kerala Food Bank"
+      
+    }
+    
+  
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
   }
   
 }

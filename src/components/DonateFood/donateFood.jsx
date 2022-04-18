@@ -8,6 +8,7 @@ import Donate from "../Donate/donate";
 import { Features } from "../Donate/features";
 import FeaturesFood from "./featuresFood";
 import HeaderFood from "./headerFood";
+import { Team } from "./Team";
 
 
 
@@ -21,6 +22,7 @@ const DonateFood = () => {
         <div>
           <HeaderFood></HeaderFood>
           <FeaturesFood></FeaturesFood>
+          <Team data={landingPageData.Team}/>
           <Contact />
         </div>
         
