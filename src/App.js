@@ -8,7 +8,7 @@ import DonateMain from "./components/Donate/donatemain";
 import Home from "./components/Home/home";
 import ScrollToTop from "./components/scrolltotop";
 import DonateFood from "./components/DonateFood/donateFood";
-import reactMap from "./components/Donate/reactMap";
+
 import DonateFoodForm from "./components/DonateFood/donateFoodForm";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

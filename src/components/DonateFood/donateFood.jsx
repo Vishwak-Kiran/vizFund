@@ -24,6 +24,7 @@ const DonateFood = () => {
           <FeaturesFood></FeaturesFood>
           <Team data={landingPageData.Team}/>
           <Contact />
+          <Contact data={landingPageData.Contact}/>
         </div>
         
       );

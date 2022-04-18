@@ -17,7 +17,7 @@ export default function Home() {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features}/>
       <Donate />
-      <Contact />
+      <Contact data={landingPageData.Contact}/>
     </div>
   );
 }

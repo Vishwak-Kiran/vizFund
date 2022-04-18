@@ -1,11 +1,11 @@
 const HeaderFood = (props) => {
     return (
         <header id='header'>
-          <div className='intro'>
+          <div className='intro2'>
             <div className='overlay'>
               <div className='container'>
                 <div className='row'>
-                  <div className='col-md-8 col-md-offset-2 intro-text'>
+                  <div className='col-md-8 col-md-offset-2 intro2-text'>
                     <h1>
                       Donate Food and Clothes
                       <span></span>
