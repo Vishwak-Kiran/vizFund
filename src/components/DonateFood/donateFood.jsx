@@ -20,7 +20,6 @@ const DonateFood = () => {
           <HeaderFood></HeaderFood>
           <FeaturesFood></FeaturesFood>
           <Team data={landingPageData.Team}/>
-          <Contact />
           <Contact data={landingPageData.Contact}/>
         </div>
         
