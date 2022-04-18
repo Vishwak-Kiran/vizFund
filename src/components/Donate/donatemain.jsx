@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { About } from "./about";
 import { Contact } from "./contact";
 import { Header } from "./header";
 import JsonData from "../data/data.json";
