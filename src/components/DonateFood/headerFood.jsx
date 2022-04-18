@@ -10,7 +10,7 @@ const HeaderFood = (props) => {
                       Donate Food and Clothes
                       <span></span>
                     </h1>
-                    <p> Donate food and used clothes to the needy</p>
+                    <p > Donate food and used clothes to the needy</p>
                     <a
                       href='#features'
                       className='btn btn-custom btn-lg page-scroll'

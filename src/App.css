@@ -1,7 +1,7 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    width: 121%;
   }
   #about,
   #services,
@@ -9,11 +9,11 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 121%;
   }
 
   #portfolio {
-    width: 110%;
+    width: 130%;
   }
 }
 svg {
@@ -33,8 +33,8 @@ svg {
   color: #fff;
   padding: 15px 65px 15px 15px;
   text-shadow: 1px 1px 5px #666;
-  -webkit-transition: all 800ms;
-  transition: all 800ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 .donate:after {
   border-left: 1px solid darken(#00684d, 5%);
@@ -46,6 +46,6 @@ svg {
   position: absolute;
   right: 16px;
   top: 7px;    
-  -webkit-transition: all 600ms 200ms;
-  transition: all 600ms 200ms;
+  -webkit-transition: all 300ms 200ms;
+  transition: all 300ms 200ms;
 }
