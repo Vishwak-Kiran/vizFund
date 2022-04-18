@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export const Team = (props) => {
     return (
@@ -24,7 +25,7 @@ export const Team = (props) => {
                         <p>{d.job}</p>
                       </div>
                     </div>
-                    <a href="/donateFoodForm" class="donate" style={{marginBottom: "170px"}}> DONATE</a>
+                    <Link to="/donateFoodForm" class="donate" style={{marginBottom: "170px"}}> DONATE</Link>
                   </div>
                 ))
               : 'loading'}
