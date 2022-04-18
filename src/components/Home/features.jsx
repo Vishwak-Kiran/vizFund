@@ -23,8 +23,8 @@ export const Features = (props) => {
             deliver it to your prefered food banks.
           </p>
           <div className="a-tag">
-          <a href="/donate" className="btn btn-custom btn-lg">
-            Donate FOOD
+          <a href="/donateFood" className="btn btn-custom btn-lg">
+            Donate Food
           </a>
           </div>
         </div>
