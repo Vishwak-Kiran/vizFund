@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import JsonData from "./components/data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
@@ -29,10 +27,6 @@ const NotFoundPage = () => {
 };
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   return (
     <div>
