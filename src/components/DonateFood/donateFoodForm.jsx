@@ -25,8 +25,7 @@ const DonateFoodForm = () => {
 
 
 <br></br>
-                  <input 
-                    name="ether"
+                  <input
                     type="text"
                     className="form-control"
                     placeholder="Pickup Address"
@@ -48,7 +47,7 @@ const DonateFoodForm = () => {
               </div>
     
               <footer className="form-group">
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button className="btn btn-custom btn-lg">
                   Donate 
                 </button>
                

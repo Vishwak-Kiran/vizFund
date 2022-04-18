@@ -1,3 +1,5 @@
+import { Link, } from "react-router-dom";
+
 export const Features = (props) => {
   return (
     <div id="features" className="text-center">
@@ -13,9 +15,9 @@ export const Features = (props) => {
             need it.
           </p>
           <div className="a-tag">
-          <a href="/donate" className="btn btn-custom btn-lg">
+          <Link to="/donate" className="btn btn-custom btn-lg">
             Donate money
-          </a>
+          </Link>
           </div>
           <p>
             Donate food and other necessities to your desired banks, our
@@ -23,9 +25,9 @@ export const Features = (props) => {
             deliver it to your prefered food banks.
           </p>
           <div className="a-tag">
-          <a href="/donateFood" className="btn btn-custom btn-lg">
+          <Link to="/donateFood" className="btn btn-custom btn-lg">
             Donate Food
-          </a>
+          </Link>
           </div>
         </div>
       </div>

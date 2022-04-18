@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import { Link } from 'react-router-dom'
 
 const initialState = {
   name: '',
@@ -127,19 +128,19 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <Link to={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <Link to={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <Link to={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
