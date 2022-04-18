@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" href="/">
             Vizfund: secure donations
           </a>{" "}
         </div>
@@ -32,6 +32,9 @@ export const Navigation = (props) => {
             </li>
             <li>
               <Link to="/donate">Donate Money</Link>
+            </li>
+            <li>
+              <Link to="/donateFood">Donate Things</Link>
             </li>
           </ul>
         </div>

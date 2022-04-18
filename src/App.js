@@ -8,7 +8,6 @@ import DonateMain from "./components/Donate/donatemain";
 import Home from "./components/Home/home";
 import ScrollToTop from "./components/scrolltotop";
 import DonateFood from "./components/DonateFood/donateFood";
-import reactMap from "./components/Donate/reactMap";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -43,7 +42,6 @@ const App = () => {
           <Route path="/" element={Home()}></Route>
           <Route path="/donate" element={<DonateMain />}></Route>
           <Route path="/donateFood" element={<DonateFood />}></Route>
-          <Route path="/map" element={reactMap()}></Route>
         </Routes>
       </BrowserRouter>
     </div>

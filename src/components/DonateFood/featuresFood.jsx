@@ -7,12 +7,11 @@ const FeaturesFood = () => {
             </div>
             <div className="features-content">
               <p>
-                Donate to the poor without the worry of it not reaching the needy.
-                Using completely blockchain technology, all transactions are
-                completely decentralized and very secure. The transactions will be
-                transparent.
+                Donate food to the food banks hasslefree. The food banks will have also process other things like clothes and send them to other
+                charities in your name. The donations will be picked up by our partners and delivered to the banks.
               </p>
-              <p>Select location of pickup from the map</p>
+              <p>Select location of your nearest foodbank and give your address.</p>
+              <p>More locations to be available soon</p>
             </div>
           </div>
         </div>
